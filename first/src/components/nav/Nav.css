@@ -1,0 +1,56 @@
+.main {
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+
+.title {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.anchor{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but{
+    width: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.but button{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 3px;
+    border: 0cm;
+    font-size: 16px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+} 
+
+.but button:hover{
+   background-color: rgb(230, 31, 31);
+   color: white;
+
+}
+
+
+.title h1{
+    color: blanchedalmond;
+}
+
+.anchor a{
+    color: blanchedalmond;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
