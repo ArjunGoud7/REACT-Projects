@@ -1,0 +1,27 @@
+Dynamic Component Renderer
+
+Project Description:
+The Dynamic Component Renderer is a simple yet powerful React project that demonstrates dynamic rendering of components and the use of the useEffect hook to manage side effects like updating the application's title. The application features an intuitive interface with the following functionality:
+
+Main Component Selection:
+
+The app provides two buttons: "Image" and "Text."
+Clicking "Image" displays the Image Component.
+Clicking "Text" displays the Text Component.
+Dynamic Behavior in Image Component:
+
+The Image Component has two additional buttons:
+Clicking the first button shows a React image along with the text "React Image Component." The application's title dynamically updates to "React Image Component."
+Clicking the second button displays a Node.js image with the text "Node Image Component," and the title updates to "Node Image Component."
+React Hook Usage:
+
+The project employs the useEffect hook to change the application's title dynamically based on the currently displayed component, enhancing the user experience.
+This project serves as an excellent example of state and event management in React, demonstrating concepts such as:
+
+Conditional rendering of components.
+Dynamic updates to the document title using useEffect.
+Clean separation of UI logic across components.
+Key Features:
+Simple navigation between text and image components.
+Dynamic title updates reflecting the selected component.
+Demonstrates practical usage of useEffect and component-based design in React.
